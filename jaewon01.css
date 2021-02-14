@@ -1,0 +1,70 @@
+
+
+    main{
+      margin: 6rem 0;
+      width:100%;
+      overflow: hidden;
+    }
+
+    .log{
+      text-align: center;
+    }
+
+  .log img{
+          width: 200px;
+          margin-bottom: 3rem;
+          animation: target_image 2.5s;
+animation-iteration-count: infinite;
+transform-origin: 50% 50%;
+}
+
+@keyframes target_image {
+ 0% { transform: rotate(-10deg); }
+ 50% { transform: rotate(15deg) }
+ 100% { transform: rotate(-10deg); }
+}
+
+.log section{
+  	width: 360px;
+    	margin: 0 auto;
+    border: 1px solid #bbb;
+  	border-radius: 3px;
+  	padding: 3rem 3%;
+}
+
+
+    .log h3{
+      font-size: 3rem;
+      color: #000;
+      margin: 2.5rem 0;
+    }
+
+    .log h4{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+
+
+    .log button{
+      width: 250px;
+      height: 50px;
+      color: #000;
+      border: 0 none;
+      border-radius: 1px;
+      margin-top: 3rem;
+      font-size: 1.1rem;
+      background: #ddd;
+    }
+
+    .log button:hover{
+      box-shadow: 0 0 0 2px white, 0 0 0 3px #000;
+      background: #000;
+      transition: 0.3s;
+      color: #fff;
+    }
+
+
+
+
+ /* end*/
